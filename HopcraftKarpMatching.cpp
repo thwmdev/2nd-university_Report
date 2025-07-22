@@ -25,7 +25,7 @@ bool bfs(int n) {
                 dist[matchr[v]] = dist[u] + 1;
                 queue_[back++] = matchr[v];
             }
-            if (matchr[v] == 0) found = true; // tìm thấy đường tăng
+            if (matchr[v] == 0) found = true; 
         }
     }
     return found;
